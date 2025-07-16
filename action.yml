@@ -1,4 +1,4 @@
-name: 'google-chat-noti'
+name: 'actions-google-chat-notifier'
 description: 'Google Chat Notification for GitHub Actions'
 author: 'hoangbvh'
 inputs:
