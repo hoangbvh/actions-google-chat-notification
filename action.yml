@@ -1,0 +1,22 @@
+name: 'google-chat-noti'
+description: 'Google Chat Notification for GitHub Actions'
+author: 'hoangbvh'
+inputs:
+  name:
+    description: 'Job name.'
+    required: true
+  url:
+    description: 'Google chat Webhook url.'
+    required: true
+  status:
+    description: 'job or step status.'
+    required: true
+  custom_text:
+    description: 'Custom text message..'
+    required: false
+runs:
+  using: node20
+  main: dist/main.js
+branding:
+  icon: 'bell'
+  color: 'blue'
