@@ -1,5 +1,3 @@
-<!-- [![Test](https://github.com/hoangbvh/action-google-chat/actions/workflows/test.yml/badge.svg?branch=v1.0.0)](https://github.com/hoangbvh/action-google-chat/actions/workflows/test.yml) -->
-
 # Google Chat Notification for GitHub Actions
 
 Sends a Google Chat notifications.
@@ -12,7 +10,7 @@ Sends a Google Chat notifications.
 |:---:|:---:|:---|
 |name|true|Job name. Used for notification titles.|
 |url|true|Google Chat Webhook URL.|
-|status|true|Job status. Available values are `success`, `failure`, `cancelled`, `in-progress`. We recommend using `${{ job.status }}` or `${{ steps..outcome/conclusion }}` |
+|status|true|Job status. Available values are `success`, `failure`, `cancelled`, `in-progress`, `passed`. We recommend using `${{ job.status }}` or `${{ steps..outcome/conclusion }}` |
 |custom_text|false|Custom text to show in message. Supports HTML tags.|
 
 ### Examples
@@ -31,6 +29,6 @@ Sends a Google Chat notifications.
 
 
 
-![GitHub issues](https://img.shields.io/github/issues/hoangbvh/action-google-chat)
+![GitHub issues](https://img.shields.io/github/issues/hoangbvh/actions-google-chat-notification)
 
-[Issues page](https://github.com/hoangbvh/action-google-chat/issues)
+[Issues page](https://github.com/hoangbvh/actions-google-chat-notification/issues)

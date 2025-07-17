@@ -6,10 +6,12 @@ const statusColorPalette = (status) => {
   switch (status) {
     case 'success':
       return '#13d13f';
+    case 'passed':
+      return '#13d13f';
     case 'failure':
       return '#ff0000';
     case 'in-progress':
-      return '#ffcd07';      
+      return '#ffcd07';
     case 'cancelled':
       return '#ffcd07';
     default:
@@ -21,8 +23,10 @@ const statusText = (status) => {
   switch (status) {
     case 'success':
       return 'Success';
+    case 'passed':
+      return 'Passed ✅';
     case 'failure':
-      return 'Failed';
+      return 'Failed 🔥';
     case 'in-progress':
       return 'Starting';      
     case 'cancelled':
